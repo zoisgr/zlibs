@@ -4,18 +4,19 @@
   "description": "Bundled haunted",
   "main": "haunted.mjs",
   "scripts": {
-    "serve": "npx serve",
+    "serve": "node test/server",
     "build": "rollup --config"
   },
   "keywords": [],
   "author": "Zois",
   "license": "ISC",
   "devDependencies": {
+    "express": "^4.17.1",
     "haunted": "^4.7.0",
     "rollup": "^1.32.0",
     "rollup-plugin-terser": "^5.2.0"
   },
   "files": [
-    "haunted*.mjs"
+    "dist"
   ]
 }

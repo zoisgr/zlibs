@@ -1,16 +1,16 @@
 import { terser } from 'rollup-plugin-terser';
 
-export default {
-    input: 'src/main.js',
+export default [{
+    input: 'src/haunted.js',
     output: [
         {
-            file: 'haunted.min.mjs',
+            file: 'dist/haunted.min.mjs',
             format: 'esm',
             plugins: [terser()]
         },
         {
-            file: 'haunted.mjs',
+            file: 'dist/haunted.mjs',
             format: 'esm',
         }
     ],
-};
+}];
