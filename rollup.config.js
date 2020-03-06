@@ -29,6 +29,23 @@ export default [
         ],
         output: [
             {
+                file: 'dist/react.min.mjs',
+                format: 'esm',
+                plugins: [terser()],
+            },
+        ]
+    },
+    {
+        input: 'src/react.js',
+        plugins: [
+            replace({
+                'process.env.NODE_ENV': JSON.stringify('development')
+            }),
+            resolve(),
+            commonjs(),
+        ],
+        output: [
+            {
                 file: 'dist/react.mjs',
                 format: 'esm',
             },
