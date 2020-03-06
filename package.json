@@ -1,6 +1,6 @@
 {
   "name": "zhaunted",
-  "version": "4.7.0",
+  "version": "1.0.0",
   "description": "Bundled haunted",
   "main": "haunted.mjs",
   "scripts": {
@@ -17,14 +17,13 @@
     "express": "^4.17.1",
     "haunted": "^4.7.0",
     "htm": "^3.0.3",
-    "rollup": "^1.32.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "rollup": "^2.0.0",
     "rollup-plugin-terser": "^5.2.0"
   },
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
-  }
+  "dependencies": {}
 }
