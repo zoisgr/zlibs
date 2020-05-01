@@ -1,6 +1,6 @@
 {
   "name": "zlibs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bundled React and Haunted libraries",
   "scripts": {
     "serve": "node test/server",
