@@ -1,8 +1,7 @@
 {
   "name": "zlibs",
   "version": "1.0.1",
-  "description": "Bundled haunted",
-  "main": "haunted.mjs",
+  "description": "Bundled React and Haunted libraries",
   "scripts": {
     "serve": "node test/server",
     "build": "rollup --config"
@@ -10,6 +9,10 @@
   "keywords": [],
   "author": "Zois",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoisgr/zlibs"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.1.0",
     "@rollup/plugin-node-resolve": "^7.1.3",
